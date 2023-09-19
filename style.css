@@ -7,7 +7,7 @@
 
 
 .section1 {
-    background-color: blue;
+    background-image: linear-gradient(to right,#164da8, #2965c4);
 }
 
 
@@ -83,11 +83,85 @@ header>div>img {
 }
 
 .section1_2_img{
-    height: 30rem;
-    width: 40rem;
+    height: 25rem;
+    width: 30rem;
     
 }
 
+.cont1{
+    flex: 1;
+}
+
 .img1{
-    margin-right: -30rem;
+    flex: 1;
+    margin-left: 25rem;
+    margin-top: -7rem;
+}
+
+/* Section 2 */
+
+.section2{
+    height: 100vh;
+}
+.center-red {
+    text-align: center;
+    font-weight: 700;
+    color: blue;
+    margin-top: 5rem;
+  }
+
+.center-text {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+  }
+
+.section2_img1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  
+}
+
+.des1{
+    display: flex;
+    flex-direction: row;
+    gap: 9rem;
+}
+
+.des1_description{
+    margin-left: 15rem;
+}
+.button-second
+  {
+    border-radius: 20px 20px;
+    background-color: orange;
+    color:white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 1rem;
+    
+  }
+
+  .button-third
+  {
+    border-radius: 20px 20px;
+    background-color: orange;
+    color:white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 1rem;
+    
+  }
+  .des2{
+    display: flex;
+    flex-direction: row;
+    gap: 12rem;
+    margin-left: 20rem;
+    margin-right: 10rem;
+    margin-top: 3rem;
 }
