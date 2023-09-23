@@ -266,6 +266,7 @@ input[type="submit"] {
 }
 
 
+
 @media only screen and (max-width: 600px) and (min-width: 280px) {
   .section1_2 {
     padding-left: 20px;
@@ -416,6 +417,35 @@ input[type="submit"] {
   padding: 0;
   display: flex;
   flex-direction: column;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
+.section5_11 {
+  
+ margin-left: 2rem;
+ padding-top: 2rem;
 }
+
+.img-circle{  
+  margin-left: 6rem;
+}
+
+.form_btn{
+  background-color: aqua;
+
+}
+
+input[type="submit"] {
+  width: 40%;
+  float: right;
+  background-color: orange;
+  color: white;
+  padding: 8px 15px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+} 
